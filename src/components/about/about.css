@@ -1,0 +1,54 @@
+.about {
+    background-color: #ffd9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .about-content{
+      margin-left: 10rem;
+  }
+  .about .about-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: 800;
+    color: #3d3d3d;
+    
+  }
+  
+  .about p{
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align:center;
+  }
+  
+  .about .about-doodle {
+    margin : 0px;
+    padding: 0 0 0 5rem;
+  }
+  .about .leftImage{
+      width: 200px;
+      position: relative;
+      left: 3rem;
+  }
+  .about .rightImage{
+      width: 250px;
+      position: relative;
+      left: 10rem;
+  }
+
+  @media only screen and (max-width: 600px){
+  .about img{
+    display: none;
+  }
+  .about-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 20px;
+  }
+  
+}

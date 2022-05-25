@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.css'
 import Arrow from './Arrow.png'
 import LeftImage from './Left-Image.png'
 import Doodle from './doodle.png'
@@ -6,12 +7,14 @@ import RightImage from './RIght-Image.png'
 
 export default function about() {
     return (
+       
+
         <div className='d-flex flex-row about'>
             {/* <div className='arrow'> */}
             {/* </div> */}
             <div className='left-img'>
                 <img src={Arrow} alt="Arrow" width="300px" height="200px" />
-                <img src={LeftImage} alt='left'/>
+                <img src={LeftImage} alt='left' className="leftImage"/>
             </div>
             <div className='about-content'>
                 <h1 className='about-heading text-center'>ABOUT US</h1>
@@ -28,8 +31,9 @@ export default function about() {
             </div>
             <div className='right-img'>
                 <img className='about-doodle' src={Doodle} alt="Doodle" />
-                <img src={RightImage} alt='right'/>
+                <img src={RightImage} alt='right' className="rightImage"/>
             </div>
         </div>
+          
     )
 }
