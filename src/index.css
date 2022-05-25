@@ -53,3 +53,26 @@ code {
   width: 180px;
   box-shadow: 0px 0px 10px 1px rgba(9, 9, 9, 0.500);
 }
+
+.about {
+  background-color: #ffd9e6;
+}
+
+.about .about-heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 5rem;
+  padding: 3.5rem 0;
+  font-weight: 800;
+  color: #3d3d3d;
+}
+
+.about p{
+  padding: 2.3rem 0;
+  font-size: 1.5rem;
+  text-align:center;
+}
+
+.about .about-doodle {
+  margin : 0px;
+  padding: 0 0 0 5rem;
+}
