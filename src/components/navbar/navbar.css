@@ -1,0 +1,43 @@
+.container{
+    font-family: 'Poppins';
+    font-size: 23px;
+    border-radius: 20px;
+    box-shadow:  0 5px 20px 0 rgba(29, 21, 21, 0.19);
+    margin-top: 50px;
+    width: 60%;
+    height: 80px;
+    margin-left: 2%;
+    justify-content: space-between;
+}
+
+.nav-link{
+    margin-left: 20px;
+    color: black;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+.active {
+    background: /* gradient can be an image */
+    linear-gradient(
+      to right, 
+      rgb(243, 8, 28) 0%,
+      rgb(238, 5, 79) 50%,
+      rgb(118, 6, 116) 100%
+    )
+    left 
+    bottom  
+    no-repeat; 
+    background-size:100% 8px ;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width:960px){
+    .nav-link{
+        background-color : white;
+        text-align: center;
+    }
+}
