@@ -1,0 +1,24 @@
+.team {
+    background-color: #f1f1f1;
+    margin-top: 0rem;
+}
+
+.team .card {
+    /* background-color: #ffd9e6; */
+    background-image: linear-gradient(to bottom right,#ffd9e6 35%,#a28feb);
+    margin: 60px 0;
+    width: 350px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 2px #afaeaed6;
+}
+
+.team .card img{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.team .card .social-icons a {
+    font-size: 2rem;
+    color: black;
+}
