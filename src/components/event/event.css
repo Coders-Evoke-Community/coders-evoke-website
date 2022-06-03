@@ -1,0 +1,33 @@
+.event {
+    background-color: #ffd9e6;
+}
+
+.event h1 {
+    padding: 3rem 0;
+}
+
+.accordion {
+    padding: 0 0 2rem 0;
+}
+
+.accordion .accordion-item {
+    margin: 0 0 2rem 0;
+    background-color: #febcc6;
+}
+
+.accordion .accordion-button {
+    background-color: #ff5353;
+    color: #ffecf5;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.accordion .card {
+    margin: 1.4rem 0;
+    background-color: #f9d9df;
+}
+
+.accordion .card .btn {
+    background-color: #ff5353;
+    border: none;
+}

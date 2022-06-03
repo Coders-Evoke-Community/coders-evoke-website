@@ -3,6 +3,8 @@ import './App.css';
 import Hero from './components/hero/hero'
 import About from './components/about/about'
 import Team from './components/team/team'
+import Event from './components/event/event'
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
     <Hero/>
     <About/>
     <Team/>
+    <Event/>
     </>
   );
 }
