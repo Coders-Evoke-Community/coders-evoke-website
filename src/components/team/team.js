@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 export default function team() {
     return (
         <div className='team'>
-            <h1 className='text-center py-3'>MEET THE TEAM</h1>
+            <h1 className='text-center'>MEET THE TEAM</h1>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ backgroundColor: "#fd5453" }}></button>

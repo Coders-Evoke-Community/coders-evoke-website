@@ -3,6 +3,8 @@ import './App.css';
 import Hero from './components/hero/hero'
 import About from './components/about/about'
 import Team from './components/team/team'
+import Event from './components/event/event'
+import Joinus from './components/joinus/joinus';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
     <Hero/>
     <About/>
     <Team/>
+    <Event/>
+    <Joinus/>
     </>
   );
 }
