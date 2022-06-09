@@ -5,7 +5,7 @@ import About from './components/about/about'
 import Team from './components/team/team'
 import Event from './components/event/event'
 import Joinus from './components/joinus/joinus';
-
+import ContactUs from './components/contact/contact';
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
     <Team/>
     <Event/>
     <Joinus/>
+    <ContactUs/>
     </>
   );
 }
